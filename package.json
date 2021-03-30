@@ -1,0 +1,32 @@
+{
+  "name": "famba-app",
+  "version": "1.0.0",
+  "description": "A travel app for hitch hickers",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gillmourtunhira/famba-spa.git"
+  },
+  "keywords": [
+    "Famba",
+    "Car-hire"
+  ],
+  "author": "Gillmour Tunhira",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gillmourtunhira/famba-spa/issues"
+  },
+  "homepage": "https://github.com/gillmourtunhira/famba-spa#readme",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.6.0",
+    "snowpack": "^3.1.2"
+  },
+  "dependencies": {
+    "svelte": "^3.36.0"
+  }
+}
