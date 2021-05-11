@@ -4,9 +4,13 @@ module.exports = {
   mount: {
     /* ... */
     public: '/',
-    src: '/dist',
+    src: '/dist'
   },
   plugins: [
-    '@snowpack/plugin-svelte'
-  ],
+    /* ... */
+    [
+      '@snowpack/plugin-svelte',
+      '@snowpack/plugin-sass', { style: 'compressed' }
+    ]
+  ]
 }
