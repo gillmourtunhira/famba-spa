@@ -7,6 +7,4 @@
 <div class="App">
 	<Header/>
 	<Container/>
-	<p>Hello Good Svelte</p>
-
 </div>
